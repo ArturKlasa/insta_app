@@ -1,0 +1,27 @@
+name: post_repository
+description: Dart package which manages the posts
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^4.3.3
+
+  cloud_firestore: ^4.9.0
+
+  user_repository:
+    path: ../user_repository
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
